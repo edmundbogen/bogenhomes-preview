@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /wp-admin
+Allow: /wp-content/plugins
+Disallow: /wp-includes
+Allow: /wp-content/themes
+Crawl-Delay: 2

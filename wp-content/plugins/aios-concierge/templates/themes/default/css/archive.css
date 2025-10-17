@@ -1,0 +1,189 @@
+/*******************************************************
+ *
+ * General
+ *
+ *******************************************************/
+
+#content .aios-concierge-default-contact-info {
+    margin-left: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+
+#content .aios-concierge-default-content {
+    margin-bottom: 30px;
+}
+
+#content .aios-concierge-default-content h3 {
+    font-size: 22px;
+    margin: 0;
+}
+
+#content .aios-concierge-default-content h1 {
+    margin: 0;
+}
+
+#content .aios-concierge-default-contact-info li {
+    list-style-type: none;
+    padding: 10px 0;
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.2;
+}
+    #content .aios-concierge-default-contact-info li a{
+        color: inherit;
+        transition: all 0.6s ease;
+    }
+
+    #content .aios-concierge-default-contact-info li a:hover{
+        color: var(--aios-concierge-primary-color);
+    }
+    #content .aios-concierge-default-contact-info li div{
+    }
+        #content .aios-concierge-default-contact-info li span{
+            display: block;
+        }
+#content .aios-concierge-default-contact-info li i {
+    font-style: normal;
+    margin-right: 10px;
+    font-size: max(0.8vw, 20px);
+    padding-top: 7px;
+}
+    #content .aios-concierge-default-contact-info li i.ai-font-envelope-f{
+        font-size: 15px;
+    }
+
+    #content .aios-concierge-default-contact-info li i.ai-font-phone{
+        font-size: 16px;
+    }
+
+#content .aios-concierge-default-image {
+    margin-bottom: 20px;
+}
+
+#content .aios-concierge-default-image img,
+#content .aios-concierge-default-image canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+#content .aios-concierge-default-image canvas {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+#content .ai-concierge-pagination {
+    position: relative;
+    display: block;
+    margin: 50px 0;
+    width: 100%;
+}
+#content .ai-concierge-pagination ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+}
+#content .ai-concierge-pagination ul li {
+    position: relative;
+    display: block;
+    margin: 15px 0;
+    padding: 0 30px;
+}
+#content .ai-concierge-pagination ul li + li {
+    border-left: 1px solid #898989;
+}
+#content .ai-concierge-pagination ul .next.page-numbers,
+#content .ai-concierge-pagination ul .prev.page-numbers + li {
+    border: none;
+}
+#content .ai-concierge-pagination ul li:last-child {
+    padding-right: 0;
+    border-left: 0;
+    padding-left: 0;
+}
+#content .ai-concierge-pagination ul li a,
+#content .ai-concierge-pagination ul li span {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    outline: 0;
+    color: #898989;
+    transition: all 0.4s ease-in-out;
+}
+#content .ai-concierge-pagination ul li .current,
+#content .ai-concierge-pagination ul li a:hover {
+    color: var(--aios-concierge-primary-color, #bfb183);
+}
+#content .ai-concierge-pagination ul .next.page-numbers,
+#content .ai-concierge-pagination ul .prev.page-numbers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease-in-out;
+    width: 46px;
+    height: 44px;
+    background: var(--aios-concierge-primary-color);
+    color: #fff;
+}
+#content .ai-concierge-pagination ul .next.page-numbers i,
+#content .ai-concierge-pagination ul .prev.page-numbers i {
+    font-style: inherit;
+    font-weight: 700;
+    color: inherit;
+    font-family:  normal;
+}
+#content .ai-concierge-pagination .next.page-numbers,
+#content .ai-concierge-pagination .prev.page-numbers {
+    padding: 0;
+}
+#content .ai-concierge-pagination ul .next.page-numbers a:first-child,
+#content .ai-concierge-pagination ul .prev.page-numbers a:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: block;
+    background: 0 0;
+}
+
+
+
+/*******************************************************
+ *
+ * Mobile styles and other media queries
+ *
+ *******************************************************/
+@media only screen and (max-width: 991px) {
+    #content .aios-concierge-default-main {
+        margin: 0 auto;
+        width: 100%;
+        padding: 30px 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #content .aios-concierge-default-wrap {
+        padding: 0 30px;
+    }
+    
+    #content .aios-concierge-default-main {
+        padding: 15px 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+}

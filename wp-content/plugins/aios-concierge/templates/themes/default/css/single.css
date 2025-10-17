@@ -1,0 +1,89 @@
+.aios-concierge-default-single {
+    display: flex;
+    margin-top: 40px;
+}
+
+    .aios-concierge-default-photo{
+        width: 21%;
+        flex-shrink: 0;
+        margin-right: 5%;
+    }
+        .aios-concierge-default-photo img{
+            display: block;
+        }
+
+    #content .aios-concierge-default-content{
+        
+    }
+        #content .aios-concierge-default-content ul{
+            margin: 0;
+        }
+            #content .aios-concierge-default-content li {
+                list-style-type: none;
+                padding: 10px 0;
+                display: flex;
+                align-items: center;
+                line-height: 1.2;
+            }
+                #content .aios-concierge-default-content li a{
+                    color: inherit;
+                    transition: all 0.6s ease;
+                }
+                #content .aios-concierge-default-content li a:hover{
+                    color: var(--aios-concierge-primary-color);
+                }
+                #content .aios-concierge-default-content li div{
+
+                }
+                   
+            #content .aios-concierge-default-content li i {
+                font-style: normal;
+                margin-right: 10px;
+                font-size: max(0.8vw, 20px);
+            }
+                #content .aios-concierge-default-content li i.ai-font-envelope-f{
+                    font-size: 15px;
+                }
+
+                #content .aios-concierge-default-content li i.ai-font-phone{
+                    font-size: 16px;
+                }
+
+                #content a.back-to-main-pge{
+                    text-transform: uppercase;
+                    font-size: 15px;
+                    margin-top: 20px;
+                    display: inline-block;
+                    text-decoration: underline;
+                }
+                    #content a.back-to-main-pge:hover{
+                        color: var(--aios-concierge-primary-color);
+                    }
+/*******************************************************
+ *
+ * Mobile styles and other media queries
+ *
+ *******************************************************/
+@media only screen and (max-width: 991px) {
+    .aios-concierge-default-single{
+        flex-flow: column;
+    }
+    .aios-concierge-default-photo {
+        width: 100%;
+        margin: 0;
+    }
+        .aios-concierge-default-photo img{
+            margin: 0 auto;
+        }
+    #content .aios-concierge-default-content{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    
+}
+
+@media only screen and (max-width: 480px) {
+
+}

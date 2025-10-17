@@ -1,0 +1,56 @@
+/*******************************************************
+ *
+ * General
+ *
+ *******************************************************/
+
+body>img,
+body>iframe[name*="__bkframe"] {
+    display: none;
+}
+
+#ihf-main-container .mc-total-payment-subline {
+    color: #666;
+}
+
+#ihf-main-container .nav-tabs {
+    margin-left: 0;
+}
+
+#ihf-main-container .chosen-drop ul.chosen-results {
+    padding-left: 0;
+    margin: 0;
+}
+
+.ihf-grid-result-address {
+    display: block;
+}
+
+#ihf-main-container #ihf-refine-map-search-form .checkbox,
+#ihf-main-container #ihf-refine-map-search-form .col-xs-8 {
+    padding: 0;
+}
+
+#ihf-agent-sellers-rep>div[style] {
+    max-width: 100%;
+}
+
+#ihf-main-container #ihf-map-canvas {
+    position: relative;
+    z-index: 1;
+}
+
+body.aios-custom-ihomefinder-dark-mode #ihf-main-container.ihf-container span.help-block,
+body.aios-custom-ihomefinder-dark-mode #ihf-main-container.ihf-container form#ihf-main-search-form label.field-label,
+body.aios-custom-ihomefinder-dark-mode #ihf-main-container.ihf-container form#ihf-main-search-form label.radio-inline,
+body.aios-custom-ihomefinder-dark-mode #ihf-main-container.ihf-container .mc-total * {
+    color: #fff;
+}
+
+body.aios-custom-ihomefinder-dark-mode #ihf-main-container.ihf-container .panel,
+body.aios-custom-ihomefinder-dark-mode #ihf-main-container.ihf-container form#ihf-contact-request-form,
+body.aios-custom-ihomefinder-dark-mode #ihf-main-container.ihf-container form#ihf-contact-request-form label.field-label,
+body.aios-custom-ihomefinder-dark-mode #ihf-main-container.ihf-container form#ihf-login-form,
+body.aios-custom-ihomefinder-dark-mode #ihf-main-container.ihf-modal-container .modal-dialog {
+    color: #000;
+}
